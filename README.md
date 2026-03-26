@@ -187,6 +187,17 @@ Building the right thing at the right time.
 
 | 🧭 [Product Manager](product/product-manager.md) | Full lifecycle product ownership | Discovery, PRDs, roadmap planning, GTM, outcome measurement |
 
+### 📉 Trader Division
+
+Systematic market research, validation, and execution design for liquid trading strategies.
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 📈 [Trader Quant Strategy Engineer](trader/trader-quant-strategy-engineer.md) | Pine Script, Python, signal parity, repaint-safe strategy implementation | Building, porting, debugging, and tuning rule-based trading systems across equities, metals, crypto, forex, and futures |
+| 🌦️ [Trader Market Regime Analyst](trader/trader-market-regime-analyst.md) | Trend/range/volatility/liquidity classification, regime fit analysis | Determining which strategy styles fit or break under current market conditions |
+| 🧪 [Trader Strategy Validator](trader/trader-strategy-validator.md) | Overfitting audits, lookahead bias, survivorship bias, walk-forward logic | Stress-testing whether a backtest is trustworthy before further deployment |
+| 🛡️ [Trader Risk Execution Architect](trader/trader-risk-execution-architect.md) | Position sizing, drawdown controls, portfolio heat, execution assumptions | Designing risk, cost, and execution frameworks that make strategy research more realistic |
+
 ### 🎬 Project Management Division
 
 Keeping the trains running on time (and under budget).
@@ -491,7 +502,7 @@ Each agent is designed with:
 
 ## 📊 Stats
 
-- 🎭 **144 Specialized Agents** across 12 divisions
+- 🎭 **151 Specialized Agents** across 13 divisions
 - 📝 **10,000+ lines** of personality, process, and code examples
 - ⏱️ **Months of iteration** from real-world usage
 - 🌟 **Battle-tested** in production environments
@@ -815,7 +826,7 @@ MIT License - Use freely, commercially or personally. Attribution appreciated bu
 
 ## 🙏 Acknowledgments
 
-What started as a Reddit thread about AI agent specialization has grown into something remarkable — **147 agents across 12 divisions**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
+What started as a Reddit thread about AI agent specialization has grown into something remarkable — **151 agents across 13 divisions**, supported by a community of contributors from around the world. Every agent in this repo exists because someone cared enough to write it, test it, and share it.
 
 To everyone who has opened a PR, filed an issue, started a Discussion, or simply tried an agent and told us what worked — thank you. You're the reason The Agency keeps getting better.
 

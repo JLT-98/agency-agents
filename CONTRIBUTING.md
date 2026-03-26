@@ -39,6 +39,7 @@ Have an idea for a specialized agent? Great! Here's how to add one:
    - `paid-media/` - Paid acquisition and media specialists
    - `product/` - Product management specialists
    - `project-management/` - PM and coordination specialists
+   - `trader/` - Trading research, strategy validation, and execution-risk specialists
    - `testing/` - QA and testing specialists
    - `support/` - Operations and support specialists
    - `spatial-computing/` - AR/VR/XR specialists
@@ -215,6 +216,15 @@ those services are essential to the agent's function. When they do:
 The test: *is this agent for the user, or for the vendor?* An agent that
 solves the user's problem using a service belongs here. A service's
 quickstart guide wearing an agent costume does not.
+
+### Category Wiring
+
+If you add a **new category directory**, you must also update `AGENT_DIRS` in:
+
+- `scripts/convert.sh`
+- `scripts/lint-agents.sh`
+
+Otherwise conversion and validation will skip that category.
 
 ### Tool-Specific Compatibility
 
